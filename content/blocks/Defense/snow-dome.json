@@ -1,0 +1,23 @@
+{
+  "type": "ForceProjector",
+  "name": "Силовой Проектор",
+  "description": "силовой проектор спизженный из мода олега",
+  "researchCostMultiplier": 0.5,
+  "health": 3300,
+  "shieldHealth": 1500,
+  "size": 2,
+  "buildCostMultiplier": 0.1,
+  "hasPower": false,
+  "canOverdrive": true,
+  "phaseUseTime": 370,
+  "phaseShieldBoost": 10000,
+  "phaseRadiusBoost": 100,
+  "solid": true,
+  "radius": 80,
+  "cooldownNormal": 2.86,
+  "cooldownBrokenBase": 3.57,
+  "requirements": [
+    "snowflake/1100"
+  ],
+  "category": "effect",
+}

@@ -1,0 +1,31 @@
+{
+  "type": "repairTurret",
+  "name": "Фонтан",
+  "description": "Регенерация",
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "itemCapacity": 50,
+  "repairSpeed": 1.2,
+  "repairRadius": 60.0,
+  "beamWidth": 0.8,
+  "pulseRadius": 3,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": false,
+  "booster": false,
+  "health": 200,
+  "size": 2,
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "snowflake", "amount": 5}
+			]
+		}
+	},
+  "requirements": [
+    "snowflake/90"
+  ],
+  "category": "units",
+  "research": "regen-projector"
+}

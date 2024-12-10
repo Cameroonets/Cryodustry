@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Завод строительных блоков",
+	"description": "Здесь вы можете обменять снежинки на строительный блок",
+	"outputItem": {"item": "stroyblock", "amount": 3},
+	"size": 2,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 0.5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "snowflake", "amount": 5}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "camerite", "amount": 450 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,18 @@
+{
+  "localizedName": "Гиперзаряженный",
+  "description": "Очень мощное усиление скорости и перезарядки",
+  "reloadMultiplier": 1.6,
+  "speedMultiplier": 1.4,
+  "effect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 10,
+    "length": 35,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "FF00FF",
+    "colorTo": "4B0082"
+  },
+}

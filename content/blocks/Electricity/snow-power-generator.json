@@ -1,0 +1,22 @@
+{
+	"name": "Генератор",
+	"description": "Генератор производит электричество в любых погодных условиях",
+	"size": 3,
+	"buildCostMultiplier": 0.2,
+	"buildCost": 0.5,
+    "placeSound": "place-2",
+    "placePitchChange": false,
+    "destroySound": "destroy-small",
+	"type": "SolarGenerator",
+	"health": 400,
+	"category": "power",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": false,
+	"liquidCapacity": 50,
+	"powerProduction": 5,
+	"requirements": [
+		"snowflake/300"
+	],
+	"research": "router"
+}

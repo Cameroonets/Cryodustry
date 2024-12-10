@@ -1,0 +1,26 @@
+{
+  "name": "Снежный бур",
+  "description": "Снежный бур",
+   "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "type": "Drill",
+  "size": 2,
+  "buildCostMultiplier": 0.1,
+  "buildCost": 0.5,
+  "health": 500,
+  "tier": 4,
+  "drillTime": 1500,
+  "itemCapacity": 100,
+  "hasLiquids": false,
+  "rotateSpeed": 0.9,
+  "warmupSpeed": 3,
+  "drillEffect": "mineHuge",
+  "updateEffect": "pulverizeRed",
+  "requirements": [
+    "snowflake/300"
+  ],
+  "liquidBoostIntensity": 3,
+  "category": "production",
+  "research": "router"
+}

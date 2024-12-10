@@ -1,0 +1,10 @@
+ "type": "ItemBridge",
+  "name": "Скоростной мост",
+  "description": "A faster bridge conveyor with more range. ",
+  "health": 80,
+  "range": 6,
+  "transportTime": 0.5,
+  "hasPower": false,
+requirements: [
+  snowflake/2
+] 

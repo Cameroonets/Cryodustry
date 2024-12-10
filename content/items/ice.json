@@ -1,0 +1,8 @@
+{
+  "type": "material",
+  "name": "Блок льда",
+  "hardness": 2,
+  "cost": 2.0,
+  "color": "ff9800",
+  "tier": 2
+}

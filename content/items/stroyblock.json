@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Стройблок",
+	"description": "Кирпичи",
+	"hardness": 3,
+	"cost": 2.0,
+	"color": "795548",
+	"tier": 2
+}

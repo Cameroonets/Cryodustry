@@ -1,0 +1,35 @@
+{
+  "name": "Курьер",
+  "description": "Доставляет ресурсы",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 3,
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 30.0,
+  "flying": false,
+  "itemCapacity": 120,
+  "targetFlying": false,
+  "faceTarget": true,
+  "health": 200,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

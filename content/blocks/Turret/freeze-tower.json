@@ -1,0 +1,93 @@
+{
+ "type": "PowerTurret",
+ "name": "Морозная башня",
+ "placeSound": "place-2",
+ "placePitchChange": false,
+ "destroySound": "destroy-small",
+ "targetAir": true,
+ "targetGround": true,
+ "health": 1000,
+ "size": 2,
+ "buildCostMultiplier": 0.2,
+ "buildCost": 5,
+ "inaccuracy": 10,
+ "ammoPerShot": 0,
+ "reload": 5,
+ "recoil": 1,
+ "rotateSpeed": 5,
+ "shoots": 1,
+ "shotWith": 1,
+ "range": 80,
+ "maxAmmo":50,
+ "shootType": {
+	  "lightRadius": 0,
+      "type": "BasicBulletType",
+      "collidesAir": true,
+      "speed": 6,
+      "damage": 1,
+	  "status": "freezing",
+      "width": 0.1,
+      "height": 0.1,
+      "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 15,
+            "offset": 30,
+            "lifetime": 17,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+			"status": "freezing",
+            "length": 80,
+            "cone": -18,
+            "lenFrom": 5,
+            "lenTo": 0,
+            "colorFrom": "69F6FF",
+            "colorTo": "259CE1"
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 20,
+            "offset": 30,
+            "sizeFrom": 5,
+            "sizeTo": 0,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "length": 100,
+            "lifetime": 20,
+            "colorFrom": "69F6FF",
+            "colorTo": "259CE1",
+            "cone": 12
+          }
+        ]
+      },
+      "smokeEffect": "none",
+      "lifetime": 16,
+      "despawnEffect": "none",
+      "hittable": false,
+      "reflectable": false,
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 15,
+        "offset": 30,
+        "lifetime": 20,
+        "length": 45,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "DBFFBDFF",
+        "colorTo": "9BF056FF"
+      },
+      "pierce": true
+  },
+ "requirements": [
+     {"item": "snowflake", "amount": 600}
+     ],
+     "shootSound": "missile",
+     "category": "turret",
+     "research": "duo",
+     "hasItems": true
+}

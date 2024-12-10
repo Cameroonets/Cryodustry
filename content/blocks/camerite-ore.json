@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "itemDrop": "camerite",
+  "oreDefault": true,	
+  "oreScale": 37.380953,
+  "oreThreshold": 0.862,
+  "variants": 3
+}

@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "Камерит",
+  "description": "Основной ресурс",
+  "hardness": 1,
+  "cost": 1.5,
+  "color": "8A2BE2",
+  "tier": 1
+}

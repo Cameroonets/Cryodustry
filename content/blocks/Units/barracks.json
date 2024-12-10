@@ -1,0 +1,163 @@
+{
+  "name": "Barracks",
+  "description": "Barracks",
+  "type": "UnitFactory",
+  "health": 750,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "buildCostMultiplier": 0.2,
+  "buildCost": 20,
+  "plans": [
+    {
+      "unit": "dagger",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 200
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "mace",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 400
+        }
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "crawler",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 100
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "atrax",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 320
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "nova",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 230
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "pulsar",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 390
+        }
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "mono",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 120
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "poly",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 180
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "flare",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 200
+        }
+      ],
+      "time": 900
+    },
+    {
+      "unit": "horizon",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 350
+        }
+      ],
+      "time": 1100
+    },
+    {
+      "unit": "risso",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 170
+        }
+      ],
+      "time": 800
+    },
+    {
+      "unit": "minke",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 280
+        }
+      ],
+      "time": 1100
+    },
+    {
+      "unit": "retusa",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 130
+        }
+      ],
+      "time": 600
+    },
+    {
+      "unit": "oxynoe",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 280
+        }
+      ],
+      "time": 800
+    }
+  ],
+  "requirements": [
+    {
+      "item": "snowflake",
+      "amount": 850
+    }
+  ],
+  "category": "units",
+  "research": "router"
+}

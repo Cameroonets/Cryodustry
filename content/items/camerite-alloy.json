@@ -1,0 +1,9 @@
+{
+  "type": "material",
+  "name": "Камерит (сплав)",
+  "description": "Основной ресурс",
+  "hardness": 3,
+  "cost": 1.5,
+  "color": "4B0082",
+  "tier": 3
+}

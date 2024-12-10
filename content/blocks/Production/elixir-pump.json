@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Сборщик эликсира"
+  "researchCostMultiplier": 0.5,
+  "description": "собирает эликсир жидкий пассивно бесплатно",
+  "health": 550,
+  "size": 2,
+  "buildCostMultiplier": 0.02,
+  "hasItems": false,
+  "craftTime": 28,
+  "craftEffect": "none",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "elixir",
+        "suffix": "-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "hasPower": false,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "requirements": [
+    "snowflake/400"
+  ],
+  "category": "crafting",
+  "outputLiquid": "elixir/1"
+}

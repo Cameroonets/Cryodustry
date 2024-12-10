@@ -1,0 +1,88 @@
+{
+  "type": "PowerTurret",
+  "name": "морозная башня В2"
+  "size": 3,
+   "buildCostMultiplier": 0.2,
+  "health": 1800,
+  "range": 100,
+  "reload": 10,
+  "shoot": {
+    "type": "ShootPattern",
+    "shotDelay": 5,
+    "shots": 3
+  },
+  "targetAir": true,
+  "shootCone": 20,
+  "recoil": 1,
+  "inaccuracy": 12,
+  "rotateSpeed": 6.0,
+  "shootSound": "flame2",
+  "shootType": {
+	  "lightRadius": 0,
+      "type": "BasicBulletType",
+      "collidesAir": true,
+      "speed": 6,
+      "damage": 1,
+	  "status": "freezing",
+      "width": 0.1,
+      "height": 0.1,
+      "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 15,
+            "offset": 30,
+            "lifetime": 20,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+			"status": "freezing",
+            "length": 100,
+            "cone": -22,
+            "lenFrom": 5,
+            "lenTo": 0,
+            "colorFrom": "69F6FF",
+            "colorTo": "259CE1"
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 20,
+            "offset": 30,
+            "sizeFrom": 5,
+            "sizeTo": 0,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "length": 100,
+            "lifetime": 25,
+            "colorFrom": "69F6FF",
+            "colorTo": "259CE1",
+            "cone": 15
+          }
+        ]
+      },
+      "smokeEffect": "none",
+      "lifetime": 16,
+      "despawnEffect": "none",
+      "hittable": false,
+      "reflectable": false,
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 15,
+        "offset": 30,
+        "lifetime": 20,
+        "length": 45,
+        "cone": -360,
+        "lenFrom": 5,
+        "lenTo": 0,
+        "colorFrom": "DBFFBDFF",
+        "colorTo": "9BF056FF"
+      },
+      "pierce": true
+  },
+  "requirements": [
+    "snowflake/1550",
+  ],
+  "category": "turret",
+}

@@ -1,0 +1,40 @@
+{
+ "type": "PowerTurret",
+ "name": "Пулеметная башня",
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+ "description": "Пулеметная турель, работает без боеприпасов. Хорошо подходит на начальной стадии игры",
+ "targetAir": true,
+ "targetGround": true,
+ "health": 1000,
+ "size": 2,
+ "buildCostMultiplier": 0.2,
+ "buildCost": 5,
+ "inaccuracy": 5,
+ "ammoPerShot": 0,
+ "reload": 4,
+ "recoil": 1,
+ "rotateSpeed": 5,
+ "shoots": 3,
+ "shotWith": 3,
+ "range": 180,
+ "maxAmmo":50,
+ "shootType": { 
+    "type": "BasicBulletType",
+	"height": 10,
+	"width": 5,
+	"homingRange": 30,
+	"homingPower": 30,
+    "damage": 30,
+    "lifetime": 70,
+    "speed": 8
+ },
+ "requirements": [
+     {"item": "snowflake", "amount": 900}
+     ],
+     "shootSound": "artillery",
+     "category": "turret",
+     "research": "duo",
+     "hasItems": true
+}

@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter",
+	"name": "Снежная машина",
+	"description": "Производит снежинки",
+    "itemCapacity": 100,
+	"outputItems":[
+      {"item": "snowflake", "amount": 3}
+    ],
+	"size": 3,
+	"buildCostMultiplier": 0.1,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 25,
+	"updateEffect": "smeltsmoke",
+	"requirements": [
+		{ "item": "camerite", "amount": 750 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

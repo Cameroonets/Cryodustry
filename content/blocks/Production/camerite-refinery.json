@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Очистка камерита",
+	"description": "Здесь вы можете очистить руду камерит",
+	"outputItem": {"item": "camerite-refined", "amount": 1},
+	"size": 2,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 0.5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 10,
+	"itemCapacity": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "camerite", "amount": 3}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "camerite", "amount": 750 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,11 @@
+type: Conveyor
+name: Скоростной Конвейер
+hasShadow: true
+health: 80
+speed: 10
+displayedSpeed: 3
+junctionReplacement: camerite-junction
+bridgeReplacement: camerite-bridge
+requirements: [
+  snowflake/1
+]

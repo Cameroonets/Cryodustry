@@ -1,0 +1,60 @@
+{
+  "name": "Большой Зомби",
+  "description": "это история...",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 30,
+  "speed": 0.33,
+  "range": 5,
+  "maxRange": 5,
+  "fogRadius": 21.0,
+  "flying": false,
+  "targetFlying": true,
+  "faceTarget": true,
+  "health": 5000,
+  "weapons": [
+    {
+      "name": "big-zombie-weapon",
+      "x": 10,
+      "y": 0,
+      "reload": 30,
+      "alternate": false,
+	  "mirror": true,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 3.1
+      },
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "bulletLifeTime": 2,
+        "damage": 30,
+        "speed": 4,
+        "width": 3,
+        "height": 5
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

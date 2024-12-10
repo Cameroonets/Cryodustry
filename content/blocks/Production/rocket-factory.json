@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Завод ракет :alphachan:",
+	"description": "Наша задача...",
+	"outputItem": {"item": "rocket", "amount": 1},
+	"size": 3,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 0.5,
+	"health": 1200,
+	"itemCapacity": 5000,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 900,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "snowflake", "amount": 5000},
+				{"item": "camerite-alloy", "amount": 900}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "camerite-alloy", "amount": 4750 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

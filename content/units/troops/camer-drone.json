@@ -1,0 +1,91 @@
+{
+  "research": "dagger",
+  "name": "Дрон убийца",
+  "description": ""
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 21.0,
+  "type": "flying",
+  "engineSize": 5,
+  "speed": 7,
+  "accel":  0.025,
+  "rotateSpeed": 9
+  "hitSize": 12,
+  "health": 950,
+  "drag": 0.015,
+  "flying": true,
+  "targetAir": true,
+  "faceTarget": true,
+  "strafePenalty": 0
+  "trailLength": 7.5,
+  "mineRange": 32,
+  "itemCapacity": 100,
+  "minePower": 6.7,
+  "mineSpeed": 10,
+  "buildSpeed": 1.8,
+  "mineTier": 3,
+  "abilities": [
+    {
+    "type": "ShieldArcAbility"
+    "radius": 27
+    "angle": 70
+    "width": 4
+    "y": 0
+    "cooldown": 1080
+    "regen": 4
+    "max": 400
+	},
+    {
+    "type": "RegenAbility"
+    "amount": 0.2084
+	}
+    ],
+  "weapons": [
+    {
+      "name": "ornitopter-gun",
+      "x": 0,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "top": false,
+      "reload": 120,
+      "recoil": 0.8,
+      "minWarmup": 0.3,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "mirror": true,
+      "altrnate": true,
+      "shootSound": "shoot",
+      "shoot": {
+        "shots": 6,
+        "shotDelay": 2.0
+      },
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 4,
+        "lifetime": 30,
+        "damage": 15,
+        "splashDamage": 0,
+        "splashDamageRadius": 0,
+        "width": 4,
+        "height": 8,
+        "shootEffect": "shootSmall",
+        "despawnEffect": "none",
+        "knockback": 0,
+        "fragBullets": 2,
+        "fragBullet": {
+          "type": "MissileBulletType",
+          "speed": 3.3,
+          "lifetime": 3,
+          "damage": 6,
+          "homingRange": 0,
+          "homingPower": 0,
+          "height": 4,
+          "width": 2,
+          "pierce": false
+        }
+      }
+    }
+  ]
+}

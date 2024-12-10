@@ -1,0 +1,47 @@
+{
+  "research": "dagger",
+  "name": "Вертолет поддержки",
+  "description": "Вертолет"
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 21.0,
+  "type": "flying",
+  "engineSize": 2,
+  "trailLength": 5,
+  "speed": 7,
+  "abilities": [
+  {
+	  "type": "ForceFieldAbility",
+	  "cooldown": 600,
+	  "radius": 30,
+	  "max": 200,
+	  "regen": 2,
+	  "sides": 6
+  },
+  {
+      "type": "StatusFieldAbility",
+      "effect": "hypercharged",
+      "parentizeEffects": true,
+      "effectY": 18,
+      "activeEffect": "none",
+      "range": 180,
+      "reload": 3,
+      "duration": 6
+  }
+  ],
+  "accel":  0.1,
+  "hitSize": 20,
+  "health": 250,
+  "drag": 0.18,
+  "flying": true,
+  "targetAir": true,
+  "faceTarget": true,
+  "mineRange": 32,
+  "itemCapacity": 100,
+  "minePower": 6.7,
+  "mineSpeed": 10,
+  "buildSpeed": 1.8,
+  "mineTier": 3,
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Пехотинец",
+  "description": "Свофорд",
+  "type": "mech",
+  "research": "dagger",
+  "hitSize": 10,
+  "speed": 0.6,
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 14.0,
+  "flying": false,
+  "targetFlying": false,
+  "faceTarget": true,
+  "health": 150,
+  "weapons": [
+    {
+      "name": "gunner-soldier-gun",
+      "x": 0,
+      "y": 0,
+      "reload": 55,
+      "alternate": false,
+	  "mirror": false,
+      "top": false,
+	  "shootX": 4,
+      "inaccuracy": 0.0,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 3.1
+      },
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "bulletLifeTime": 40,
+        "damage": 17,
+        "speed": 3,
+        "width": 4,
+        "height": 6
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+{
+  "research": {
+    "requirements": [
+      "snowflake/1300"
+    ]
+  },
+  "name": "САУ",
+  "description": "самоходная артиллерийская",
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": "10",
+  "type": "tank",
+  "speed": 1,
+  "hitSize": 15,
+  "health": 600,
+  "maxRange": 400.0,
+  "range": 400.0,
+  "fogRadius": 25.0,
+  "flying": false,
+  "targetAir": false,
+  "faceTarget": false,
+  "rotateSpeed": 4,
+  "weapons": [
+    {
+      "name": "light-tank-weapon",
+      "mirror": false,
+      "x": 0,
+      "y": 0,
+      "rotateSpeed": 3.5,
+      "reload": 120,
+      "recoil": 1.5,
+      "shots": 1,
+	  "range": 175.0,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "shootSound": "plasmaboom",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 5,
+		"lifetime": 70,
+        "damage": 120,
+        "splashDamage": 120,
+        "splashDamageRadius": 5,
+        "width": 10,
+        "height": 15,
+        "shootEffect": "shootBig",
+        "despawnEffect": "none",
+        "knockback": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "research": "dagger",
+  "name": "Вертолет",
+  "description": "Вертолет"
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 21.0,
+  "type": "flying",
+  "engineSize": 0.01,
+  "speed": 5,
+  "accel":  0.1,
+  "hitSize": 25,
+  "health": 550,
+  "drag": 0.18,
+  "flying": true,
+  "targetAir": true,
+  "faceTarget": true,
+  "itemCapacity": 100,
+  "weapons": [
+    {
+      "name": "ornitopter-gun",
+      "x": 0,
+      "y": 10,
+      "rotateSpeed": 3.5,
+      "top": false,
+      "reload": 120,
+      "recoil": 0.8,
+      "minWarmup": 0.3,
+      "inaccuracy": 3.0,
+      "rotate": true,
+      "mirror": true,
+      "altrnate": true,
+      "shootSound": "shoot",
+      "shoot": {
+        "shots": 6,
+        "shotDelay": 2.0
+      },
+      "bullet": {
+        "type": "shootSmall",
+        "speed": 4,
+        "lifetime": 30,
+        "damage": 15,
+        "splashDamage": 0,
+        "splashDamageRadius": 0,
+        "width": 4,
+        "height": 8,
+        "shootEffect": "shootSmall",
+        "despawnEffect": "none",
+        "knockback": 0,
+        "fragBullets": 2,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "speed": 3.3,
+          "lifetime": 3,
+          "damage": 4,
+          "homingRange": 0,
+          "homingPower": 0,
+          "height": 4,
+          "width": 2,
+          "pierce": false
+        }
+      }
+    }
+  ]
+}

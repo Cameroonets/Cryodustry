@@ -1,0 +1,13 @@
+{
+  "name": "Большая укрепленная стена",
+  "description": "Большая укрепленная стена для защиты базы",
+  "type": "Wall",
+  "health": 4000,
+  "size": 2,
+  "buildCostMultiplier": 0.01,
+  "requirements": [
+    {"item": "stroyblock", "amount": 200}
+  ],
+  "category": "defense",
+  "research": "router"
+}

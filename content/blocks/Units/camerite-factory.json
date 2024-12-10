@@ -1,0 +1,112 @@
+{
+  "name": "Камеритовый завод",
+  "description": "",
+  "type": "UnitFactory",
+  "health": 1488,
+   "placeSound": "place-1",
+  "placePitchChange": false,
+  "destroySound": "destroy-big",
+  "researchCostMultiplier": 1,
+  "size": 3,
+  "buildCostMultiplier": 0.2,
+  "plans": [
+    {
+      "unit": "digger",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 200
+        }
+      ],
+      "time": 300
+    },
+    {
+      "unit": "sau-tank",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 350
+        }
+      ],
+      "time": 600
+    },
+	{
+      "unit": "gunner-soldier",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 100
+        }
+      ],
+      "time": 300
+    },
+	{
+      "unit": "rocket-soldier",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 125
+        }
+      ],
+      "time": 300
+    },
+	{
+      "unit": "heli",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 700
+        }
+      ],
+      "time": 600
+    },
+	{
+      "unit": "courier",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 100
+        }
+      ],
+      "time": 300
+    },
+	{
+      "unit": "support-heli",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 950
+        }
+      ],
+      "time": 600
+    },
+	{
+      "unit": "fpv-drone",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 700
+        }
+      ],
+      "time": 600
+    },
+	{
+      "unit": "camer-drone",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 900
+        }
+      ],
+      "time": 600
+    }
+  ],
+  "requirements": [
+    {
+      "item": "camerite",
+      "amount": 1500
+    }
+  ],
+  "category": "units",
+  "research": "router"
+}

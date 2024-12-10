@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Ракета баля",
+	"description": "боепрiпас",
+	"hardness": 3,
+	"cost": 2.0,
+	"color": "8B0000",
+	"tier": 2
+}

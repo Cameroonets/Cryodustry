@@ -1,0 +1,47 @@
+{
+  "research": "dagger",
+  "name": "бпла",
+  "description": ""
+  "lightRadius": "145",
+  "lightColor": "F3E979FF",
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 21.0,
+  "type": "flying",
+  "engineSize": 3,
+  "speed": 7,
+  "accel":  0.025,
+  "rotateSpeed": 9
+  "hitSize": 12,
+  "health": 350,
+  "drag": 0.015,
+  "flying": true,
+  "targetAir": false,
+  "faceTarget": true,
+  "strafePenalty": 0
+  "trailLength": 12,
+  "itemCapacity": 100,
+  "weapons": [
+  {
+	  "shootOnDeath": true,
+	  "targetUnderBlocks": false,
+	  "reload": 24,
+	  "mirror": false,
+	  "shootCone": 180,
+	  "shootSound": "Sounds.explosion",
+	  "bullet": {
+		  "splashDamageRadius": 120,
+		  "instantDisappear": true,
+		  "splashDamage": 300,
+		  "killShooter": true,
+		  "hittable": false,
+		  "collidesAir": true,
+		  "speed": 0,
+		  "rangeOverride": 30,
+		  "collidesTiles": false,
+		  "collides": false,
+		  "hitSOund": "Sounds.explosion"
+		  }
+  }
+  ]
+}
