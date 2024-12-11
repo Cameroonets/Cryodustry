@@ -1,5 +1,5 @@
 type: Junction
-name: Золотой перекресток
+name: Скоростной перекресток
 health: 80
 speed: 50
 capacity: 8

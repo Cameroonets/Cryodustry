@@ -1,0 +1,18 @@
+{
+  "localizedName": "Снежное усиление",
+  "description": "Слегка увеличивает скорость",
+  "reloadMultiplier": 1,
+  "speedMultiplier": 1.4,
+  "effect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 3,
+    "lifetime": 10,
+    "length": 35,
+    "cone": 360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "3DC8E4",
+    "colorTo": "C3F5FF"
+  },
+}

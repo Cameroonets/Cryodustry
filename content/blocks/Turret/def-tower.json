@@ -31,7 +31,8 @@
     "speed": 4
  },
  "requirements": [
-     {"item": "snowflake", "amount": 1800}
+     {"item": "camerite", "amount": 1800},
+	 {"item": "camerite-refined", "amount": 500}
      ],
      "shootSound": "artillery",
      "category": "turret",

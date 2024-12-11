@@ -1,0 +1,14 @@
+{
+  "name": "Большая камеритовая стена",
+  "description": "",
+  "type": "Wall",
+  "health": 4000,
+  "size": 2,
+  "buildCostMultiplier": 0.01,
+  "buildCost": 0.5,
+  "requirements": [
+    {"item": "camerite-alloy", "amount": 48}
+  ],
+  "category": "defense",
+  "research": "router"
+}

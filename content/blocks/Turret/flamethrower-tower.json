@@ -81,7 +81,8 @@
       "incendAmount": 5
   },
   "requirements": [
-    "camerite/1300"
+    "camerite/1300",
+	"camerite-refined/900",
   ],
   "category": "turret",
 }

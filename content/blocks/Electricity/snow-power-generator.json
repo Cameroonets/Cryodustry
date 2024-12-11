@@ -14,7 +14,7 @@
 	"hasLiquids": false,
 	"hasItems": false,
 	"liquidCapacity": 50,
-	"powerProduction": 5,
+	"powerProduction": 3,
 	"requirements": [
 		"snowflake/300"
 	],

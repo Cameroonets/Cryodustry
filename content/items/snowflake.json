@@ -4,6 +4,6 @@
   "description": "Основной ресурс для покупки строений и юнитов",
   "hardness": 2,
   "cost": 2.0,
-  "color": "ff9800",
+  "color": "C3F5FF",
   "tier": 2
 }

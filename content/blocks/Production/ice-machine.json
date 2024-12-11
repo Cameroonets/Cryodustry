@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Холодильник",
+	"outputItem": {"item": "ice", "amount": 3},
+	"size": 2,
+	"buildCostMultiplier": 0.02,
+	"buildCost": 0.5,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "snowflake", "amount": 4}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "camerite", "amount": 250 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
