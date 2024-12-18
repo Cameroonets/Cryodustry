@@ -19,5 +19,10 @@
   "requirements": [
     "snowflake/1100"
   ],
+  "research": {
+    "requirements": [
+      "camerite/1"
+    ]
+  },
   "category": "effect",
 }
