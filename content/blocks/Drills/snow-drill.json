@@ -22,10 +22,5 @@
   ],
   "liquidBoostIntensity": 3,
   "category": "production",
-  "research": "router"
-  "research": {
-    "requirements": [
-      "camerite/1"
-    ]
-  },
+  "research": "snowflake"
 }

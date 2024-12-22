@@ -16,7 +16,7 @@
 		{ "item": "camerite", "amount": 750 }
 	],
 	"category": "crafting",
-	"research": "router",
+	"research": "snowflake",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

@@ -18,5 +18,5 @@
 	"requirements": [
 		"snowflake/300"
 	],
-	"research": "router"
+	"research": "power-node"
 }

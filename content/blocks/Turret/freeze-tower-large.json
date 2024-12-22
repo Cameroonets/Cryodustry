@@ -2,6 +2,7 @@
   "type": "PowerTurret",
   "name": "морозная башня В2"
   "size": 3,
+  "research": "freeze-tower",
    "buildCostMultiplier": 0.2,
   "health": 1800,
   "range": 100,

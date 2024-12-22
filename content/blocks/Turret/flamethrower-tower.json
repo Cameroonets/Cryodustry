@@ -4,6 +4,7 @@
   "size": 2,
    "buildCostMultiplier": 0.2,
   "health": 1800,
+  "research": "small-laser-tower",
   "range": 70,
   "reload": 10,
   "shoot": {

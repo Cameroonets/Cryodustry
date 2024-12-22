@@ -5,6 +5,7 @@
   "range": 6,
   "transportTime": 0.5,
   "hasPower": false,
+  "research": "camerite-conveyor",
 requirements: [
   snowflake/2
 ] 

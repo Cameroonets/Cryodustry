@@ -50,6 +50,6 @@
      ],
      "shootSound": "artillery",
      "category": "turret",
-     "research": "duo",
+     "research": "artillery-tower",
      "hasItems": true
 }

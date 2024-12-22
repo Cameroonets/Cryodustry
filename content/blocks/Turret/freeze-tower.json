@@ -88,6 +88,6 @@
      ],
      "shootSound": "missile",
      "category": "turret",
-     "research": "duo",
+     "research": "small-laser-tower",
      "hasItems": true
 }

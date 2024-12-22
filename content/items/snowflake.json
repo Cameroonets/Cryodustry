@@ -5,5 +5,6 @@
   "hardness": 2,
   "cost": 2.0,
   "color": "C3F5FF",
+  "research": "cryocore",
   "tier": 2
 }

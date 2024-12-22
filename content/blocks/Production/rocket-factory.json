@@ -24,7 +24,7 @@
 		{ "item": "camerite-alloy", "amount": 4750 }
 	],
 	"category": "crafting",
-	"research": "router",
+	"research": "camerite-smelter",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

@@ -3,6 +3,7 @@
   "name": "Огнеметная башня В2"
   "size": 3,
    "buildCostMultiplier": 0.2,
+  "research": "flamethrower-tower",
   "health": 1800,
   "range": 100,
   "reload": 10,

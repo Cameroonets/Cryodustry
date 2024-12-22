@@ -36,6 +36,6 @@
      ],
      "shootSound": "artillery",
      "category": "turret",
-     "research": "duo",
+     "research": "small-rocket-tower",
      "hasItems": true
 }

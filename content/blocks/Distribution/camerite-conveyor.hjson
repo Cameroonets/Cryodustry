@@ -6,6 +6,7 @@ speed: 3
 displayedSpeed: 1
 junctionReplacement: camerite-junction
 bridgeReplacement: camerite-bridge
+research: camerite
 requirements: [
   snowflake/1
 ]

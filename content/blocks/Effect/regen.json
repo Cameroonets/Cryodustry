@@ -3,6 +3,7 @@
   "name": "Регенератор",
   "description": "Восстанавливает здоровье всех построек в его радиусе",
   "size": 2,
+  "research": "snowflake",
   "range": 12,
   "baseColor": "85c278",
   "squareSprite": false,

@@ -23,7 +23,7 @@
 		{ "item": "camerite-refined", "amount": 1750 }
 	],
 	"category": "crafting",
-	"research": "router",
+	"research": "camerite-refinery",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5,
 	"drawer": {

@@ -1,0 +1,17 @@
+{
+  "localizedName": "Cryocore",
+  "type": "CoreBlock",
+  "health": 5000,
+  "alwaysUnlocked": true,
+  "squareSprite": false,
+  "size": 4,
+  "armor": 30,
+  "itemCapacity": 25000,
+  "unitCapModifier": 30,
+  "buildCostMultiplier": 0.7,
+  "unitType": "camer-drone",
+  "requirements": [
+    "camerite/4000",
+  ],
+  "category": "effect",
+}

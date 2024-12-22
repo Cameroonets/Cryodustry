@@ -3,6 +3,7 @@
 	"name": "Холодильник",
 	"outputItem": {"item": "ice", "amount": 3},
 	"size": 2,
+	"research": "camerite",
 	"buildCostMultiplier": 0.02,
 	"buildCost": 0.5,
 	"hasPower": false,
@@ -20,7 +21,6 @@
 		{ "item": "camerite", "amount": 250 }
 	],
 	"category": "crafting",
-	"research": "router",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

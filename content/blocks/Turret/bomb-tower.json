@@ -32,6 +32,6 @@
      ],
      "shootSound": "artillery",
      "category": "turret",
-     "research": "duo",
+     "research": "small-artillery",
      "hasItems": true
 }

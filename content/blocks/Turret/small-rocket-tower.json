@@ -45,6 +45,6 @@
      ],
      "shootSound": "missile",
      "category": "turret",
-     "research": "duo",
+     "research": "camerite",
      "hasItems": true
 }
