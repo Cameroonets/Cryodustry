@@ -101,7 +101,7 @@
       "time": 600
     },
 	{
-      "unit": "Spawner",
+      "unit": "spawner",
       "requirements": [
         {
           "item": "snowflake",
