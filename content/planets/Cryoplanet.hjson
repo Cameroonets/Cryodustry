@@ -1,18 +1,18 @@
 generator: SerpuloPlanetGenerator       //Генератор планеты (Если не создаёте свой генератор, тогда не меняйте название)
-localizedName: "Криопланета"
+localizedName: "Cryoplanet"       //Название планеты
 parent: sun
-iconColor: 68D8C6       //Цвет иконки
+iconColor: 66FFFB       //Цвет иконки
 orbitRadius: 1000       //Радиус орбиты
 hasAtmosphere: true       //Есть ли атмосфера?
 updateLighting: false
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
-atmosphereColor: ff9900       //Цвет атмосферы
+atmosphereColor: 66FFFB       //Цвет атмосферы
 drawOrbit: false      //Рисовать орбиту? (false - не отрисовывать, true - отрисовывать)
 
 accessible: true      //Можно ли на неё приземлиться (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
-alwaysUnlocked: true
-defaultCore: foundation
+alwaysUnlocked: true      //Всегда ли разблокированна? (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+defaultCore: "cryocore"       //Основное ядро (В данном случае Осколок). Можно создать своё ядро и указать здесь
 sectorSeed: 0       //Семя сектора
 startSector: 1      //Начальный сектор 
 sectorSize: 1       //Размер секторов
@@ -25,12 +25,12 @@ allowLaunchToNumbered: false      //Возможность приземлять�
 //В этом туториале этого не будет, если хотите узнать подробнее пишите в комментариях
 cloudMesh: {
   type: HexSkyMesh
-  planet: TestPlanet
+  planet: Cryoplanet
   seed: 2
   speed: 3
   radius: 0.05
   divisions: 5
-  color: eb7107
+  color: BAFAF2
   octaves: 2
   persistence: 1
   scl: 2
@@ -39,10 +39,10 @@ cloudMesh: {
 
 mesh: {
     type: NoiseMesh
-    planet: TestPlanet
+    planet: Cryoplanet
     seed: 562697
-    color1: d47420
-    color2: b85804
+    color1: C3EAFF
+    color2: E7F0EF
     divisions: 5
     radius: 0.9
     octaves: 7

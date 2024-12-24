@@ -1,0 +1,53 @@
+{
+  "research": "dagger",
+  "name": "Спавнер",
+  "lightRadius": "180",
+  "lightColor": "F3E979FF",
+  "range": 112.0,
+  "maxRange": 112.0,
+  "fogRadius": 29.0,
+  "type": "flying",
+  "engineSize": 3,
+  "trailLength": 5,
+  "speed": 5,
+  "abilities": [
+  {
+	  "type": "ForceFieldAbility",
+	  "cooldown": 600,
+	  "radius": 60,
+	  "max": 200,
+	  "regen": 2,
+	  "sides": 8
+  },
+  {
+	  "type": "UnitSpawnAbility",
+	  "spawnX": 0,
+	  "spawnY": 0,
+	  "spawnTime": 240
+	  "unit": "gunner-soldier"
+  }
+  {
+      "type": "StatusFieldAbility",
+      "effect": "snow-buff",
+      "parentizeEffects": true,
+      "effectY": 18,
+      "activeEffect": "none",
+      "range": 180,
+      "reload": 3,
+      "duration": 6
+  }
+  ],
+  "accel":  0.1,
+  "hitSize": 35,
+  "health": 250,
+  "drag": 0.18,
+  "flying": true,
+  "targetAir": true,
+  "faceTarget": true,
+  "mineRange": 80,
+  "itemCapacity": 300,
+  "minePower": 6.7,
+  "mineSpeed": 10,
+  "buildSpeed": 1.8,
+  "mineTier": 3,
+}

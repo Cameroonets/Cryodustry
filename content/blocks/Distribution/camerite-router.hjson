@@ -1,0 +1,12 @@
+//Думаю здесь и так понятно :3
+  type: Router
+  category: distribution
+  name: Маршрутизатор
+  health: 40
+  size: 1
+  capacity: 1
+  alwaysUnlocked: true
+
+  requirements: [
+      camerite/3
+  ]

@@ -1,0 +1,11 @@
+type: OverflowGate
+category: distribution
+name: Избыточный шлюз
+health: 40
+invert: true
+alwaysUnlocked: true
+
+requirements: [
+  camerite/6
+] 
+

@@ -3,7 +3,7 @@
   "description": "Укрепленная стена для защиты",
   "type": "Wall",
   "health": 2000,
-  "size": 1,
+  "size": 2,
   "buildCostMultiplier": 0.01,
   "requirements": [
     {"item": "ice", "amount": 200}

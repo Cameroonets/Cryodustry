@@ -1,0 +1,9 @@
+type: OverflowGate
+category: distribution
+name: Избыточный затвор
+health: 40
+alwaysUnlocked: true
+
+requirements: [
+  camerite/6
+] 

@@ -1,0 +1,10 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: Сортировщик
+alwaysUnlocked: true
+
+requirements: [
+  camerite/4
+] 

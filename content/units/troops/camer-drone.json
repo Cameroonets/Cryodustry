@@ -20,6 +20,8 @@
   "faceTarget": true,
   "strafePenalty": 0
   "trailLength": 7.5,
+  "enegineColor": "A9D8FFFF",
+  "trailColor": "A9D8FFFF",
   "mineRange": 32,
   "itemCapacity": 100,
   "minePower": 6.7,

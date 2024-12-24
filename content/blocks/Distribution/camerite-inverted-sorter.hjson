@@ -1,0 +1,11 @@
+type: Sorter
+category: distribution
+size: 1
+health: 40
+name: Инвертированный сортировщик
+invert: true
+alwaysUnlocked: true
+
+requirements: [
+  camerite/4
+] 
