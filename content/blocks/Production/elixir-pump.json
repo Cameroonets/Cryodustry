@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Сборщик эликсира",
-  "research": "camerite",
+  "alwaysUnlocked": true,
   "researchCostMultiplier": 0.5,
   "description": "собирает эликсир жидкий пассивно бесплатно",
   "health": 550,

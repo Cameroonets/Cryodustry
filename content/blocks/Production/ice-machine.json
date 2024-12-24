@@ -3,7 +3,7 @@
 	"name": "Холодильник",
 	"outputItem": {"item": "ice", "amount": 3},
 	"size": 2,
-	"research": "camerite",
+	"alwaysUnlocked": true,
 	"buildCostMultiplier": 0.02,
 	"buildCost": 0.5,
 	"hasPower": false,

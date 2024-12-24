@@ -32,6 +32,6 @@
      ],
      "shootSound": "artillery",
      "category": "turret",
-     "research": "small-artillery",
+     "alwaysUnlocked": true,
      "hasItems": true
 }

@@ -13,7 +13,7 @@
  "buildCost": 5,
  "inaccuracy": 5,
  "ammoPerShot": 0,
- "reload": 4,
+ "reload": 4.5,
  "recoil": 1,
  "rotateSpeed": 5,
  "shoots": 3,
@@ -27,14 +27,14 @@
 	"homingRange": 30,
 	"homingPower": 30,
     "damage": 30,
-    "lifetime": 70,
+    "lifetime": 40,
     "speed": 8
  },
  "requirements": [
      {"item": "camerite", "amount": 1300}
      ],
-     "shootSound": "artillery",
+     "shootSound": "shot1",
      "category": "turret",
-     "research": "small-rocket-tower",
+     "alwaysUnlocked": true,
      "hasItems": true
 }

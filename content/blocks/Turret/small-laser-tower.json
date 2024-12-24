@@ -44,6 +44,6 @@
      ],
      "shootSound": "laser",
      "category": "turret",
-     "research": "camerite",
+     "alwaysUnlocked": true,
      "hasItems": true
 }

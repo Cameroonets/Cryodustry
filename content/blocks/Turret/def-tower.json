@@ -36,6 +36,6 @@
      ],
      "shootSound": "artillery",
      "category": "turret",
-     "research": "small-rocket-tower",
+     "alwaysUnlocked": true,
      "hasItems": true
 }

@@ -24,7 +24,7 @@
 		{ "item": "camerite-alloy", "amount": 4750 }
 	],
 	"category": "crafting",
-	"research": "camerite-smelter",
+	"alwaysUnlocked": true,
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

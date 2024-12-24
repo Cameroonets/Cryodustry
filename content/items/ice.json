@@ -4,6 +4,6 @@
   "hardness": 2,
   "cost": 2.0,
   "color": "3DC8E4",
-   "research": "camerite",
+   "alwaysUnlocked": true,
   "tier": 2
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Укрепленная стена",
+  "name": "Снежная стена",
   "description": "Укрепленная стена для защиты",
   "type": "Wall",
   "health": 1000,
@@ -9,5 +9,5 @@
     {"item": "snowflake", "amount": 50}
   ],
   "category": "defense",
-  "research": "camerite"
+  "alwaysUnlocked": true
 }

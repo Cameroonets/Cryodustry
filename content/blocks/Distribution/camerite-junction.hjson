@@ -3,7 +3,7 @@ name: Скоростной перекресток
 health: 80
 speed: 50
 capacity: 8
-research: camerite-conveyor
+alwaysUnlocked: true
 requirements: [
   snowflake/1
 ] 

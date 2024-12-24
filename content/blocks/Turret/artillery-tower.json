@@ -48,6 +48,6 @@
      ],
      "shootSound": "artillery",
      "category": "turret",
-     "research": "bomb-tower",
+     "alwaysUnlocked": true,
      "hasItems": true
 }

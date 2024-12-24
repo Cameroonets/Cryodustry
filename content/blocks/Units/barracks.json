@@ -159,5 +159,5 @@
     }
   ],
   "category": "units",
-  "research": "camerite"
+  "alwaysUnlocked": true
 }

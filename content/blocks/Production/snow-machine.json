@@ -16,7 +16,7 @@
 		{ "item": "camerite", "amount": 750 }
 	],
 	"category": "crafting",
-	"research": "snowflake",
+	"alwaysUnlocked": true,
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

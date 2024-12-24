@@ -4,7 +4,7 @@
   "size": 2,
    "buildCostMultiplier": 0.2,
   "health": 1800,
-  "research": "small-laser-tower",
+  "alwaysUnlocked": true,
   "range": 70,
   "reload": 10,
   "shoot": {

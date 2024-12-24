@@ -14,5 +14,5 @@
 		"snowflake/10"
 	],
 	"category": "power",
-	"research": "camerite"
+	"alwaysUnlocked": true
 }

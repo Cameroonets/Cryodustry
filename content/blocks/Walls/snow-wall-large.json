@@ -1,5 +1,5 @@
 {
-  "name": "Большая укрепленная стена",
+  "name": "Большая снежная стена",
   "description": "Большая укрепленная стена для защиты базы",
   "type": "Wall",
   "health": 4000,
@@ -9,5 +9,5 @@
     {"item": "snowflake", "amount": 200}
   ],
   "category": "defense",
-  "research": "camerite"
+  "alwaysUnlocked": true
 }

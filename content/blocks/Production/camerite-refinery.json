@@ -22,7 +22,7 @@
 		{ "item": "camerite", "amount": 750 }
 	],
 	"category": "crafting",
-	"research": "camerite",
+	"alwaysUnlocked": true,
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }

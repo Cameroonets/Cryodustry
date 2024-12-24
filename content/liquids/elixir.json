@@ -1,5 +1,6 @@
 {
   "name": "эликсир",
   "cache": "water",
+  "alwaysUnlocked": true,
   "color": "b333bb"
 }

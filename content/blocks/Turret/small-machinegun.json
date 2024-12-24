@@ -7,6 +7,7 @@
  "description": "Пулеметная турель, работает без боеприпасов. Хорошо подходит на начальной стадии игры",
  "targetAir": true,
  "targetGround": true,
+ "shootSound": "shot1",
  "health": 250,
  "size": 1,
  "buildCostMultiplier": 0.2,
@@ -28,13 +29,11 @@
 	"homingPower": 0,
     "damage": 8,
     "lifetime": 17,
-	"shootSound": "shootSmall",
     "speed": 8
  },
  "requirements": [
      {"item": "camerite", "amount": 500}
      ],
-     "shootSound": "shootSmall",
      "category": "turret",
      "alwaysUnlocked": true,
      "hasItems": true

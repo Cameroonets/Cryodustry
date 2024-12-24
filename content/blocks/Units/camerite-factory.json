@@ -108,5 +108,5 @@
     }
   ],
   "category": "units",
-  "research": "barracks"
+  "alwaysUnlocked": true
 }

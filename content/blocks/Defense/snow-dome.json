@@ -19,6 +19,6 @@
   "requirements": [
     "snowflake/1100"
   ],
-  "research": "snowflake",
+  "alwaysUnlocked": true,
   "category": "effect",
 }

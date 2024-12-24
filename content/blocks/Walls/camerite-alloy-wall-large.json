@@ -10,5 +10,5 @@
     {"item": "camerite-alloy", "amount": 48}
   ],
   "category": "defense",
-  "research": "camerite"
+  "alwaysUnlocked": true
 }
