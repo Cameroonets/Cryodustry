@@ -40,7 +40,7 @@
             "smokeEffect": "hitBulletBig"
  },
  "requirements": [
-     {"item": "snowflake", "amount": 300}
+     {"item": "camerite", "amount": 300}
      ],
      "shootSound": "laser",
      "category": "turret",

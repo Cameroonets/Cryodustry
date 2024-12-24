@@ -7,5 +7,5 @@
   "hasPower": false,
   "alwaysUnlocked": true,
 requirements: [
-  snowflake/2
+  camerite/2
 ] 

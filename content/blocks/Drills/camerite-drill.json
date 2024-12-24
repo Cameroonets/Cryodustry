@@ -1,26 +1,26 @@
 {
-  "name": "Снежный бур",
-  "description": "Снежный бур",
+  "name": "Камеритовый бур",
+  "description": "Камеритовый бур",
    "placeSound": "place-2",
   "placePitchChange": false,
   "destroySound": "destroy-small",
   "type": "Drill",
-  "size": 2,
+  "size": 3,
   "buildCostMultiplier": 0.1,
   "buildCost": 0.5,
-  "health": 500,
-  "tier": 4,
-  "drillTime": 1000,
+  "health": 800,
+  "tier": 3,
+  "drillTime": 1600,
   "itemCapacity": 100,
   "hasLiquids": false,
-  "rotateSpeed": 1.3,
+  "rotateSpeed": 1.1,
   "warmupSpeed": 3,
   "drillEffect": "mineHuge",
   "updateEffect": "pulverizeRed",
   "requirements": [
-    "snowflake/400"
+    "camerite/300"
   ],
-  "liquidBoostIntensity": 5,
+  "liquidBoostIntensity": 3,
   "category": "production",
   "alwaysUnlocked": true
 }

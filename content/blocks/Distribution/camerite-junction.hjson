@@ -5,5 +5,5 @@ speed: 50
 capacity: 8
 alwaysUnlocked: true
 requirements: [
-  snowflake/1
+  camerite/1
 ] 

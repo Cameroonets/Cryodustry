@@ -8,5 +8,5 @@ junctionReplacement: camerite-junction
 bridgeReplacement: camerite-bridge
 alwaysUnlocked: true
 requirements: [
-  snowflake/1
+  camerite/1
 ]

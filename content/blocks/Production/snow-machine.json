@@ -13,7 +13,7 @@
 	"craftTime": 25,
 	"updateEffect": "smeltsmoke",
 	"requirements": [
-		{ "item": "camerite", "amount": 750 }
+		{ "item": "camerite", "amount": 550 }
 	],
 	"category": "crafting",
 	"alwaysUnlocked": true,

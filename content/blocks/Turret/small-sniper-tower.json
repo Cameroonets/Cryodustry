@@ -1,0 +1,40 @@
+{
+ "type": "PowerTurret",
+ "name": "Маленькая снайперская башня",
+  "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+ "description": "Снайперская башня",
+ "targetAir": true,
+ "targetGround": true,
+ "shootSound": "sniper1",
+ "health": 150,
+ "size": 1,
+ "buildCostMultiplier": 0.2,
+ "buildCost": 5,
+ "inaccuracy": 0,
+ "ammoPerShot": 0,
+ "reload": 90,
+ "recoil": 1,
+ "rotateSpeed": 5,
+ "shoots": 3,
+ "shotWith": 3,
+ "range": 300,
+ "maxAmmo":50,
+ "shootType": { 
+    "type": "BasicBulletType",
+	"height": 10,
+	"width": 5,
+	"homingRange": 0,
+	"homingPower": 0,
+    "damage": 100,
+    "lifetime": 40,
+    "speed": 14
+ },
+ "requirements": [
+     {"item": "camerite", "amount": 600}
+     ],
+     "category": "turret",
+     "alwaysUnlocked": true,
+     "hasItems": true
+}

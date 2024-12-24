@@ -41,7 +41,7 @@
       "incendChance": 1
  },
  "requirements": [
-     {"item": "snowflake", "amount": 250}
+     {"item": "camerite", "amount": 250}
      ],
      "shootSound": "missile",
      "category": "turret",
