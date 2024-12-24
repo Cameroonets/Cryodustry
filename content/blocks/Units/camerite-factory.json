@@ -99,6 +99,16 @@
         }
       ],
       "time": 600
+    },
+	{
+      "unit": "Spawner",
+      "requirements": [
+        {
+          "item": "snowflake",
+          "amount": 3000
+        }
+      ],
+      "time": 1200
     }
   ],
   "requirements": [
