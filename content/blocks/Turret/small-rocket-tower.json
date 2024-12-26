@@ -38,7 +38,13 @@
       "homingRange": 100,
       "incendAmount": 8,
       "incendSpread": 4,
-      "incendChance": 1
+      "incendChance": 1,
+	  "lightColor": "FF2C2C",
+	  "lightOpacity": 0.7,
+	  "lightRadius": 24.5,
+	  "trailColor": "FF2C2C",
+	  "trailLength": 7.5,
+	  "trailWidth": 1.5,
  },
  "requirements": [
      {"item": "camerite", "amount": 250}

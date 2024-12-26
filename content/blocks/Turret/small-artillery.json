@@ -38,9 +38,12 @@
 	  "splashDamage": 14,
       "homingPower": 0,
       "homingRange": 0,
-      "incendAmount": 8,
-      "incendSpread": 4,
-      "incendChance": 1
+	  "lightColor": "FC8282",
+	  "lightOpacity": 0.7,
+	  "lightRadius": 24.5,
+	  "trailColor": "FFA6A6",
+	  "trailLength": 7.5,
+	  "trailWidth": 1.5,
  },
  "requirements": [
      {"item": "camerite", "amount": 350}

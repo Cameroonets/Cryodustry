@@ -7,7 +7,7 @@
  "description": "Пулеметная турель, работает без боеприпасов. Хорошо подходит на начальной стадии игры",
  "targetAir": true,
  "targetGround": true,
- "shootSound": "shot1",
+ "shootSound": "machine-gun-shot-2",
  "health": 250,
  "size": 1,
  "buildCostMultiplier": 0.2,
@@ -29,7 +29,14 @@
 	"homingPower": 0,
     "damage": 8,
     "lifetime": 17,
-    "speed": 8
+    "speed": 8,
+	"lightColor": "C47FFF",
+    "lightOpacity": 0.7,
+    "lightRadius": 24.5,
+    "trailColor": "E39EFF",
+    "trailLength": 7.5,
+    "trailWidth": 1.5,
+	"despawnEffect": "none",
  },
  "requirements": [
      {"item": "camerite", "amount": 500}

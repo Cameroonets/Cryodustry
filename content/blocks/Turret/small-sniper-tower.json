@@ -29,7 +29,14 @@
 	"homingPower": 0,
     "damage": 100,
     "lifetime": 40,
-    "speed": 14
+    "speed": 14,
+	"lightColor": "FFD46E",
+    "lightOpacity": 0.7,
+    "lightRadius": 24.5,
+    "trailColor": "FFD46E",
+    "trailLength": 15,
+    "trailWidth": 1.5,
+	"despawnEffect": "none",
  },
  "requirements": [
      {"item": "camerite", "amount": 600}
