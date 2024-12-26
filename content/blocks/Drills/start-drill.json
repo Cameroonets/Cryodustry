@@ -1,0 +1,24 @@
+{
+  "name": "Стартовая дрель",
+   "placeSound": "place-2",
+  "placePitchChange": false,
+  "destroySound": "destroy-small",
+  "type": "Drill",
+  "size": 2,
+  "buildCostMultiplier": 0.1,
+  "buildCost": 0.5,
+  "health": 100,
+  "tier": 1,
+  "drillTime": 1700,
+  "itemCapacity": 50,
+  "hasLiquids": false,
+  "rotateSpeed": 1.5,
+  "warmupSpeed": 3,
+  "drillEffect": "mineHuge",
+  "requirements": [
+    "camerite/50"
+  ],
+  "liquidBoostIntensity": 3,
+  "category": "production",
+  "alwaysUnlocked": true
+}

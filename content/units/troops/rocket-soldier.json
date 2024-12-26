@@ -1,6 +1,7 @@
 {
   "name": "Ракетчик",
   "description": "Ракетчик",
+  "alwaysUnlocked": true,
   "type": "mech",
   "hitSize": 10,
   "speed": 0.6,

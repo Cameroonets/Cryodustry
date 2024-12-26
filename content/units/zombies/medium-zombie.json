@@ -2,7 +2,7 @@
   "name": "Средний Зомби",
   "description": "это история...",
   "type": "mech",
-  "research": "dagger",
+  "alwaysUnlocked": true,
   "hitSize": 20,
   "speed": 0.45,
   "range": 5,

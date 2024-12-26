@@ -2,7 +2,7 @@
   "name": "Большой Зомби",
   "description": "это история...",
   "type": "mech",
-  "research": "dagger",
+  "alwaysUnlocked": true,
   "hitSize": 30,
   "speed": 0.33,
   "range": 5,

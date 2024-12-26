@@ -2,7 +2,7 @@
   "name": "Зомби",
   "description": "это история...",
   "type": "mech",
-  "research": "dagger",
+  "alwaysUnlocked": true,
   "hitSize": 10,
   "speed": 0.45,
   "range": 5,

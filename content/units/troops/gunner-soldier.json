@@ -2,7 +2,7 @@
   "name": "Пехотинец",
   "description": "Свофорд",
   "type": "mech",
-  "research": "dagger",
+  "alwaysUnlocked": true,
   "hitSize": 10,
   "speed": 0.6,
   "range": 112.0,

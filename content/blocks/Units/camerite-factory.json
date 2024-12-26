@@ -11,11 +11,21 @@
   "buildCostMultiplier": 0.2,
   "plans": [
     {
+      "unit": "miner",
+      "requirements": [
+        {
+          "item": "camerite",
+          "amount": 200
+        }
+      ],
+      "time": 300
+    },
+	{
       "unit": "digger",
       "requirements": [
         {
-          "item": "snowflake",
-          "amount": 200
+          "item": "camerite",
+          "amount": 300
         }
       ],
       "time": 300
@@ -24,7 +34,7 @@
       "unit": "sau-tank",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 350
         }
       ],
@@ -34,7 +44,7 @@
       "unit": "gunner-soldier",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 100
         }
       ],
@@ -44,7 +54,7 @@
       "unit": "rocket-soldier",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 125
         }
       ],
@@ -54,7 +64,7 @@
       "unit": "heli",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 700
         }
       ],
@@ -64,7 +74,7 @@
       "unit": "courier",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 100
         }
       ],
@@ -74,7 +84,7 @@
       "unit": "support-heli",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 950
         }
       ],
@@ -84,7 +94,7 @@
       "unit": "fpv-drone",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 700
         }
       ],
@@ -94,7 +104,7 @@
       "unit": "camer-drone",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite",
           "amount": 900
         }
       ],
@@ -104,7 +114,7 @@
       "unit": "spawner",
       "requirements": [
         {
-          "item": "snowflake",
+          "item": "camerite-refined",
           "amount": 3000
         }
       ],

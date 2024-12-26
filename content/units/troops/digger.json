@@ -1,5 +1,5 @@
 {
-  "research": "dagger",
+  "alwaysUnlocked": true,
   "name": "Копатель",
   "description": "д(н)иггер, умеет строить на всякий случай"
   "lightRadius": "145",
@@ -17,10 +17,10 @@
   "flying": true,
   "targetAir": true,
   "faceTarget": true,
-  "mineRange": 32,
+  "mineRange": 36,
   "itemCapacity": 250,
   "minePower": 6.7,
-  "mineSpeed": 10,
+  "mineSpeed": 8,
   "buildSpeed": 1.8,
   "mineTier": 3,
 }

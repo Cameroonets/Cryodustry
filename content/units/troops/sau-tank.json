@@ -1,9 +1,5 @@
 {
-  "research": {
-    "requirements": [
-      "snowflake/1300"
-    ]
-  },
+  "alwaysUnlocked": true,
   "name": "САУ",
   "description": "самоходная артиллерийская",
   "lightRadius": "145",

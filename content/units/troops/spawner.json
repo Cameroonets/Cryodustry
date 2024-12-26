@@ -1,6 +1,6 @@
 {
-  "research": "dagger",
-  "name": "Спавнер",
+  "alwaysUnlocked": true,
+  "name": "Самолет десанта",
   "lightRadius": "180",
   "lightColor": "F3E979FF",
   "range": 112.0,
@@ -23,7 +23,7 @@
 	  "type": "UnitSpawnAbility",
 	  "spawnX": 0,
 	  "spawnY": 0,
-	  "spawnTime": 240
+	  "spawnTime": 400
 	  "unit": "gunner-soldier"
   }
   {

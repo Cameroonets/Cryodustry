@@ -2,7 +2,7 @@
   "name": "Курьер",
   "description": "Доставляет ресурсы",
   "type": "mech",
-  "research": "dagger",
+  "alwaysUnlocked": true,
   "hitSize": 10,
   "speed": 3,
   "range": 112.0,
