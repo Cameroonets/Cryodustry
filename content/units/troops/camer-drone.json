@@ -20,9 +20,9 @@
   "faceTarget": true,
   "strafePenalty": 0
   "trailLength": 7.5,
-  "enegineColor": "A9D8FFFF",
-  "trailColor": "A9D8FFFF",
-  "mineRange": 32,
+  "engineColor": "E39EFF",
+  "trailColor": "E39EFF",
+  "mineRange": 100,
   "itemCapacity": 100,
   "minePower": 6.7,
   "mineSpeed": 10,
