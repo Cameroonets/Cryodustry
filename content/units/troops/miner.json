@@ -1,6 +1,8 @@
 {
   "alwaysUnlocked": true,
   "name": "шахтер",
+  "controller": "MinerAI",
+  "defaultCommand": "mine",
   "description": "Шахтер"
   "lightRadius": "145",
   "lightColor": "F3E979FF",
@@ -16,10 +18,11 @@
   "flying": false,
   "targetAir": false,
   "faceTarget": true,
-  "mineRange": 20,
+  "mineItems": ["camerite"],
+  "mineRange": 50,
   "itemCapacity": 200,
   "minePower": 4.7,
   "mineSpeed": 5,
   "buildSpeed": 1,
-  "mineTier": 2,
+  "mineTier": 1,
 }

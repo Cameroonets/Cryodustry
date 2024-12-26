@@ -1,7 +1,9 @@
 {
   "alwaysUnlocked": true,
   "name": "Копатель",
-  "description": "д(н)иггер, умеет строить на всякий случай"
+  "description": "д(н)иггер, умеет строить на всякий случай",
+  "controller": "MinerAI",
+  "defaultCommand": "mine",
   "lightRadius": "145",
   "lightColor": "F3E979FF",
   "range": 112.0,
@@ -17,10 +19,11 @@
   "flying": true,
   "targetAir": true,
   "faceTarget": true,
-  "mineRange": 36,
+  "mineItems": ["camerite"],
+  "mineRange": 60,
   "itemCapacity": 250,
   "minePower": 6.7,
   "mineSpeed": 8,
   "buildSpeed": 1.8,
-  "mineTier": 3,
+  "mineTier": 1,
 }
