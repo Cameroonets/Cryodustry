@@ -40,7 +40,7 @@
             "smokeEffect": "hitBulletBig"
  },
  "requirements": [
-     {"item": "camerite", "amount": 300}
+     {"item": "camerite", "amount": 500}
      ],
      "shootSound": "laser",
      "category": "turret",

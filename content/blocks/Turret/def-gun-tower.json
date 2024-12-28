@@ -26,8 +26,8 @@
 	"width": 8,
 	"homingRange": 0,
 	"homingPower": 0,
-    "damage": 30,
-    "lifetime": 40,
+    "damage": 16,
+    "lifetime": 22,
     "speed": 8,
 	"lightColor": "C47FFF",
     "lightOpacity": 0.7,
@@ -37,7 +37,8 @@
     "trailWidth": 2,
  },
  "requirements": [
-     {"item": "camerite", "amount": 1300}
+     {"item": "camerite", "amount": 1300},
+	 {"item": "camerite-refined", "amount": 200},
      ],
      "shootSound": "pkm_shot",
      "category": "turret",

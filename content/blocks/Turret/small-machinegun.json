@@ -27,7 +27,7 @@
 	"width": 5,
 	"homingRange": 0,
 	"homingPower": 0,
-    "damage": 8,
+    "damage": 4,
     "lifetime": 17,
     "speed": 8,
 	"lightColor": "C47FFF",

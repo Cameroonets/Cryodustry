@@ -27,7 +27,7 @@
         "shots": 3,
         "shotDelay": 3.1
       },
-      "shootSound": "shoot",
+      "shootSound": "machine-gun-shot-2",
       "bullet": {
         "type": "basicBulletType",
         "bulletLifeTime": 40,

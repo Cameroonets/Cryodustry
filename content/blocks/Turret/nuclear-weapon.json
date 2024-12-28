@@ -13,7 +13,7 @@
  "buildCost": 5,
  "inaccuracy": 3,
  "ammoPerShot": 0,
- "reload": 600,
+ "reload": 6000,
  "itemCapacity": 5000,
  "recoil": 1,
  "rotateSpeed": 5,
@@ -48,7 +48,7 @@
  "requirements": [
      {"item": "snowflake", "amount": 10000}
      ],
-     "shootSound": "artillery",
+     "shootSound": "artillery-shot",
      "category": "turret",
      "alwaysUnlocked": true,
      "hasItems": true

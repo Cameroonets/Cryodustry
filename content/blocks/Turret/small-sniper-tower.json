@@ -14,7 +14,7 @@
  "buildCost": 5,
  "inaccuracy": 0,
  "ammoPerShot": 0,
- "reload": 90,
+ "reload": 180,
  "recoil": 1,
  "rotateSpeed": 5,
  "shoots": 3,
@@ -27,8 +27,8 @@
 	"width": 5,
 	"homingRange": 0,
 	"homingPower": 0,
-    "damage": 100,
-    "lifetime": 40,
+    "damage": 60,
+    "lifetime": 25,
     "speed": 14,
 	"lightColor": "FFD46E",
     "lightOpacity": 0.7,
@@ -39,7 +39,7 @@
 	"despawnEffect": "none",
  },
  "requirements": [
-     {"item": "camerite", "amount": 600}
+     {"item": "camerite", "amount": 800}
      ],
      "category": "turret",
      "alwaysUnlocked": true,
