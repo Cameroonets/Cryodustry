@@ -2,7 +2,7 @@ type: Conveyor
 name: Скоростной Конвейер
 hasShadow: true
 health: 80
-speed: 0.2
+speed: 0.12
 displayedSpeed: 1
 junctionReplacement: camerite-junction
 bridgeReplacement: camerite-bridge

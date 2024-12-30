@@ -25,6 +25,7 @@
       "speed": 6,
       "damage": 1,
 	  "status": "freezing",
+	  "statusDuration": 300,
       "width": 0.1,
       "height": 0.1,
       "shootEffect": {

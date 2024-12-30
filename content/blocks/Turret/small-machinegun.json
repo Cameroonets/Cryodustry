@@ -23,8 +23,8 @@
  "maxAmmo":50,
  "shootType": { 
     "type": "BasicBulletType",
-	"height": 10,
-	"width": 5,
+	"height": 1,
+	"width": 1,
 	"homingRange": 0,
 	"homingPower": 0,
     "damage": 4,
