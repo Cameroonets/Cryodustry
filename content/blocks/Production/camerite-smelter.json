@@ -7,7 +7,7 @@
 	"buildCost": 0.5,
 	"hasPower": false,
 	"hasItems": true,
-	"craftTime": 10,
+	"craftTime": 7,
 	"itemCapacity": 100,
 	"updateEffect": "smeltsmoke",
 	"consumes": {

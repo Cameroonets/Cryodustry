@@ -1,9 +1,11 @@
 "name": "ракетная турель"
 "type": ItemTurret
+"buildCostMultiplier": 0.2
 reload: 120
 shootCone: 50
 rotateSpeed: 2
 targetGround: true
+inaccuracy: 4
 targetAir: true
 range: 460
 recoil: 5

@@ -7,14 +7,14 @@ missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.3
 engineOffset: 3
-lifetime: 480
+lifetime: 420
 rotateSpeed: 6
 hitSize: 4
 trailLength: 9
 trailWidth: 4
 autoFindTarget: true
 homingDelay: 1
-circleTarget: true
+circleTarget: false
 faceTarget: true
 health: 100
 trailColor: FF51DD
@@ -37,8 +37,8 @@ weapons: [
     shake: 1.4
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 80
-      splashDamageRadius: 5
+      splashDamage: 120
+      splashDamageRadius: 10
     }
   } 
 ]
