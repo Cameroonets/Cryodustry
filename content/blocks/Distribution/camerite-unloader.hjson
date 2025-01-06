@@ -1,0 +1,11 @@
+type: Unloader
+name: Разгрузчик
+health: 70
+capacity: 0
+
+requirements: [
+  camerite/50
+] 
+category: effect
+
+alwaysUnlocked: true

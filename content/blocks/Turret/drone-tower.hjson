@@ -1,0 +1,29 @@
+"name": "ракетная турель"
+"type": ItemTurret
+reload: 120
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+targetAir: true
+range: 460
+recoil: 5
+shootSound: missileLarge
+size: 3
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+"ammoTypes": {
+     "camerite": {
+         "instantDisappear": true,
+         "damage": 0,
+         "spawnUnit": "camerite-missile"
+  },
+},
+requirements: [
+    camerite/1500
+    camerite-alloy/80
+    camerite-refined/320
+]
+category: turret
+alwaysUnlocked: true
+

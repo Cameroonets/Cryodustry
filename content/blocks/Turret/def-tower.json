@@ -41,7 +41,7 @@
      {"item": "camerite", "amount": 1800},
 	 {"item": "camerite-refined", "amount": 500}
      ],
-     "shootSound": "artillery",
+     "shootSound": "plasmaboom",
      "category": "turret",
      "alwaysUnlocked": true,
      "hasItems": true
