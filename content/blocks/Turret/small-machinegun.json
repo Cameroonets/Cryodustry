@@ -39,7 +39,7 @@
 	"despawnEffect": "none",
  },
  "requirements": [
-     {"item": "camerite", "amount": 500}
+     {"item": "camerite", "amount": 350}
      ],
      "category": "turret",
      "alwaysUnlocked": true,

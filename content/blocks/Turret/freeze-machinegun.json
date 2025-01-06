@@ -40,7 +40,7 @@
     "trailWidth": 2,
  },
  "requirements": [
-     {"item": "camerite-alloy", "amount": 400},
+     {"item": "camerite-alloy", "amount": 100},
 	 {"item": "snowflake", "amount": 1600},
      ],
      "shootSound": "shot2",

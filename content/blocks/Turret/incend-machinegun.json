@@ -42,8 +42,8 @@
     "trailWidth": 2.2,
  },
  "requirements": [
-     {"item": "camerite", "amount": 2200},
-	 {"item": "camerite-alloy", "amount": 600},
+     {"item": "camerite", "amount": 1700},
+	 {"item": "camerite-refined", "amount": 600},
      ],
      "shootSound": "shot3",
      "category": "turret",

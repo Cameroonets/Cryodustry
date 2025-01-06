@@ -4,13 +4,13 @@
 	"description": "Производит снежинки",
     "itemCapacity": 100,
 	"outputItems":[
-      {"item": "snowflake", "amount": 3}
+      {"item": "snowflake", "amount": 1}
     ],
 	"size": 3,
 	"buildCostMultiplier": 0.1,
 	"hasPower": true,
 	"hasItems": true,
-	"craftTime": 25,
+	"craftTime": 30,
 	"updateEffect": "smeltsmoke",
 	"requirements": [
 		{ "item": "camerite", "amount": 550 }

@@ -36,7 +36,7 @@
     "trailWidth": 2,
  },
  "requirements": [
-     {"item": "camerite-alloy", "amount": 700},
+     {"item": "camerite-alloy", "amount": 400},
 	 {"item": "camerite", "amount": 2000},
      ],
      "shootSound": "plasmaboom",

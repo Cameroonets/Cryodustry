@@ -19,7 +19,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "camerite", "amount": 750 }
+		{ "item": "camerite", "amount": 350 }
 	],
 	"category": "crafting",
 	"alwaysUnlocked": true,

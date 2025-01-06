@@ -17,7 +17,7 @@ shotDelay: 0
 }
 shootType: {
   type: LightningBulletType
-  damage: 12
+  damage: 7
   lightningLength: 16
   lightningLengthRand: 1
   lightningColor: FFA42B
