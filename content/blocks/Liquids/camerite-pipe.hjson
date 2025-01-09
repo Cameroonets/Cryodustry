@@ -1,0 +1,14 @@
+type: Conduit
+name: Труба
+category: liquid
+requirements: [
+camerite/1
+]
+health: 50
+leaks: true
+junctionReplacement: camerite-pipe-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.000
+liquidCapacity: 10
+alwaysUnlocked: true

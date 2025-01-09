@@ -1,0 +1,14 @@
+type: LiquidRouter
+name: Жидкостный маршрутизатор
+size: 1
+solid: false
+underBullets: true
+health: 65
+liquidCapacity: 20
+category: liquid
+squareSprite: false
+requirements: [
+camerite/3
+]
+researchCostMultiplier: 1
+alwaysUnlocked: true

@@ -1,0 +1,40 @@
+description: Выращивает растения
+name: Теплица
+type: GenericCrafter
+alwaysUnlocked: true
+size: 3
+health: 500
+craftTime: 120
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+consumes: {
+  liquid: water/0.1
+}
+requirements: [
+camerite/500
+]
+category: crafting
+outputItem: trava/3
+"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "36ab24",
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 1.3,
+        "reverse": true,
+        "particleRad": 18,
+        "particles": 16,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 60
+      }
+    ]
+  },

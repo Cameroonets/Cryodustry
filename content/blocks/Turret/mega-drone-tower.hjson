@@ -1,0 +1,35 @@
+"name": "Мега ракетница"
+"type": ItemTurret
+"buildCostMultiplier": 0.2
+reload: 80
+shootCone: 50
+rotateSpeed: 2
+targetGround: true
+inaccuracy: 4
+targetAir: true
+range: 460
+recoil: 5
+shootSound: missileLarge
+size: 3
+health: 800
+AmmoPerShot: 5
+shootShake: 0.5
+shoot: {
+	 shotDelay: 2,
+	 shots: 12
+}
+"ammoTypes": {
+     "camerite": {
+         "instantDisappear": true,
+         "damage": 0,
+         "spawnUnit": "camerite-missile"
+  },
+},
+requirements: [
+    camerite/2500
+    camerite-alloy/300
+    camerite-refined/700
+]
+category: turret
+alwaysUnlocked: true
+

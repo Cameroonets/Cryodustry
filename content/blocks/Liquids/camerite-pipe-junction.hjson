@@ -1,0 +1,9 @@
+type: LiquidJunction
+name: Жидкостный перекресток
+solid: false
+category: liquid
+squareSprite: false
+requirements: [
+camerite/2
+]
+alwaysUnlocked: true

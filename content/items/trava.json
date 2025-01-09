@@ -1,0 +1,10 @@
+{
+  "type": "material",
+  "name": "Растение",
+  "description": "Кленовый лист",
+  "hardness": 3,
+  "cost": 1.5,
+  "color": "66cc00",
+  "alwaysUnlocked": true,
+  "tier": 2
+}

@@ -1,15 +1,12 @@
 {
   "type": "RegenProjector",
-  "name": "Регенератор",
+  "name": "Маленький регенератор",
   "description": "Восстанавливает здоровье всех построек в его радиусе",
-  "size": 2,
+  "size": 1,
   "alwaysUnlocked": true,
-  "range": 14,
+  "range": 8,
   "baseColor": "85c278",
   "squareSprite": false,
-  "consumes": {
-	  "power": 0.5,
-  },
   "effect": {
     "type": "ParticleEffect",
     "colorFrom": "85c278",
@@ -27,7 +24,7 @@
   },
   "optionalUseTime": 180,
   "optionalMultiplier": 2,
-  "healPercent": 0.02,
+  "healPercent": 0.01,
   "requirements": [
     "camerite/600"
   ],

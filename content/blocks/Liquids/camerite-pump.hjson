@@ -1,0 +1,12 @@
+type: Pump
+name: Камеритовый насос
+size: 2
+category: liquid
+consumes: {
+power: 0.5
+}
+requirements: [
+camerite/200
+]
+pumpAmount: 0.1
+researchCostMultiplier: 1

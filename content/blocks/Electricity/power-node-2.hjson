@@ -1,0 +1,15 @@
+name: Угловой узел
+type: BeamNode
+  
+hasPower: true
+hasItems: false
+hasLiquids: false
+
+health: 200
+size: 1
+requirements: [
+camerite/2
+ ]
+range: 7
+category: power
+alwaysUnlocked: true
