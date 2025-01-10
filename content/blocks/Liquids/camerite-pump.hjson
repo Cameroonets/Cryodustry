@@ -10,3 +10,4 @@ camerite/200
 ]
 pumpAmount: 0.1
 researchCostMultiplier: 1
+alwaysUnlocked: true
