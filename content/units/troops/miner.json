@@ -2,6 +2,10 @@
   "alwaysUnlocked": true,
   "name": "шахтер",
   "controller": "MinerAI",
+  "commands": [
+	"mine",
+	"move"
+  ],
   "defaultCommand": "mine",
   "description": "Шахтер"
   "lightRadius": "145",
@@ -13,7 +17,7 @@
   "engineSize": 1,
   "speed": 1,
   "hitSize": 8,
-  "health": 250,
+  "health": 100,
   "drag": 0.18,
   "flying": false,
   "targetAir": false,

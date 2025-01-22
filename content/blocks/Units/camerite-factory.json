@@ -30,6 +30,16 @@
       ],
       "time": 300
     },
+	{
+      "unit": "drill-tank",
+      "requirements": [
+        {
+          "item": "camerite",
+          "amount": 800
+        }
+      ],
+      "time": 600
+    },
     {
       "unit": "sau-tank",
       "requirements": [
@@ -106,6 +116,16 @@
         {
           "item": "camerite",
           "amount": 900
+        }
+      ],
+      "time": 600
+    },
+	{
+      "unit": "assaulter",
+      "requirements": [
+        {
+          "item": "camerite",
+          "amount": 800
         }
       ],
       "time": 600

@@ -1,0 +1,88 @@
+name: Штурмовик
+type: legs
+mechLegColor: 1f1f1f
+template: ErekirUnitType
+health: 400
+armor: 3
+hitSize: 8
+speed: 1
+rotateSpeed: 4
+accel: 0.70
+itemCapacity: 30
+    legMoveSpace: 2
+    legMaxLength: 1.5
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 1.3
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 9
+    allowLegStep: false
+ 	hovering: false
+boostMultiplier: 1.4
+engines: [
+  {
+    x: 0
+    y: -8
+    radius: 1.5
+  }
+]
+weapons: [
+{
+  name: assaulter-weapon
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 0
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  shootSound: hit
+  reload: 10
+  targetInterval: 3
+  targetSwitchInterval: 3
+  cooldownTime: 5
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 8
+   lightColor: FF6F00
+    lightOpacity: 0.7
+    lightRadius: 24.5
+    trailColor: FF6F00
+    trailLength: 7.5
+    trailWidth: 1.5
+	despawnEffect: none
+   
+   damage: 14
+   speed: 7
+   lifetime: 18
+  }
+}
+]
+abilities: [
+    {
+    type: ShieldArcAbility
+    radius: 10
+    angle: 150
+    width: 7
+    y: 0
+    cooldown: 1080
+    regen: 4
+    max: 400
+	}
+    {
+    type: RegenAbility
+    amount: 0.2084
+	}
+    ]
+alwaysUnlocked: true

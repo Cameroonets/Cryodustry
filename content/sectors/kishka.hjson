@@ -1,0 +1,17 @@
+  localizedName: Кишка
+  description: Вы разбились на своем корабле в этом ущелье. Вам предстоит пройти через лес и построить оборону чтобы дождаться эвакуации
+  captureWave: 42       //Волна на которой он закончится
+  difficulty: 3
+  alwaysUnlocked: true     //Всегда открыт? (Оставляйте true)
+  addStartingItems: false      //Будут ли добавленны стартовые предметы? (true - да, false - нет)
+  startWaveTimeMultiplier: 2
+  useAI: false      //Используется ИИ? (Оставляйте false, если только вы не указали в карте, чтобы враг использовал ИИ)
+  showSectorLandInfo: true      //Показывать описания сектора? (true - да, false - нет)
+  planet: Cryoplanet
+  name: kishka
+  sector: 2       //Сектор (какой сектор на планете)
+
+  //К чему прикреплён сектор
+  research: {
+    parent: "Core"
+  }
